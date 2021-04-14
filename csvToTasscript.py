@@ -36,6 +36,6 @@ if __name__ == "__main__":
 				# Readable python code
 				leftstick = ';'.join([n if n else '0' for n in row[:2]])
 				rightstick = ';'.join([n if n else '0' for n in row[2:4]])
-				buttons = ';'.join([buttonnames[i] for i, x in enumerate(row[4:]) if x])
+				buttons = ';'.join([buttonnames[i] for i, x in enumerate(row[4:]) if x]) or 'NONE'
 
 				tasscriptfile.write(f"{linenumber} {buttons} {leftstick} {rightstick}\n")
