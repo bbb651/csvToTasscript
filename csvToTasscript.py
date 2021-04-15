@@ -16,6 +16,8 @@ if __name__ == "__main__":
 
 			for linenumber, row in enumerate(reader, 1):
 
+				if all(x == '' for x in row): continue
+
 				buttonnames = [
 					"KEY_A",
 					"KEY_B",
