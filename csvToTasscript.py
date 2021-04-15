@@ -25,12 +25,14 @@ if __name__ == "__main__":
 					"KEY_ZL",
 					"KEY_R",
 					"KEY_L",
-					"KEY_PLUS",
-					"KEY_MINUS",
 					"KEY_DRIGHT",
 					"KEY_DLEFT",
 					"KEY_DUP",
-					"KEY_DDOWN"
+					"KEY_DDOWN",
+					"KEY_PLUS",
+					"KEY_MINUS",
+					"KEY_LSTICK",
+					"KEY_RSTICK"
 				]
 
 				# Readable python code
